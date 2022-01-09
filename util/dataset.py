@@ -22,6 +22,7 @@ if __name__ == "__main__":
     temp_dir = "../dataset/SEED/ExtractedFeatures/de_LDS"
     feature, label, cumulative = load_mat(temp_dir)
     train_arr, train_label, test_arr, test_label = train_test_split(feature, label, cumulative)
+    
     np.save(os.path.join(temp_dir, "train_feature.npy"), train_arr)
     np.save(os.path.join(temp_dir, "train_label.npy"), train_label)
     np.save(os.path.join(temp_dir, "test_feature.npy"), test_arr)

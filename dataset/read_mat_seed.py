@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 
-dir_path = "./SEED/ExtractedFeatures"
+dir_path = "/home/seugaoms/Documents/seed/SEEDdataset/ExtractedFeatures"
 feature_types = ["de", "psd", "dasm", "rasm", "asm", "dcau"]
 smooth_method_types = ["movingAve", "LDS"]
 # get labels:

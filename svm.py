@@ -5,7 +5,7 @@ import pickle
 
 
 jump = 1
-temp_dir = "./dataset/SEED/ExtractedFeatures/de_LDS"
+temp_dir = "/home/seugaoms/Documents/seed/SEEDdataset/ExtractedFeatures/de_LDS"
 feature, label, cumulative = load_mat(temp_dir)
 train_arr, train_label, test_arr, test_label = train_test_split(feature, label, cumulative)
 train_arr = train_arr[::jump]

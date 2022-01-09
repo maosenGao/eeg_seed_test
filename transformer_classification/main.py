@@ -30,7 +30,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_dir',  type=str, 
-                        default='/home/PublicDir/temp_user/eeg_test/dataset/SEED/ExtractedFeatures/de_LDS',
+                        default='/home/seugaoms/Documents/seed/SEEDdataset/ExtractedFeatures/de_LDS',
                         help='path to the folder that contains feature.npy, label.npy, cumulative.npy')
     parser.add_argument('--train_percentage',  type=int, 
                         default=0.6,

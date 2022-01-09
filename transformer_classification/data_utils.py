@@ -1,3 +1,8 @@
+
+import sys
+pythonpath = sys.executable
+print(pythonpath)
+
 from typing import Iterable, Union, List
 import torch
 from torch.utils.data import TensorDataset
@@ -5,6 +10,11 @@ import numpy as np
 import os
 from sklearn import preprocessing
 import random
+
+
+
+
+
     
 
 def create_examples(args,
